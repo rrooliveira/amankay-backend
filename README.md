@@ -15,4 +15,5 @@ docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
 ## Endpoints Availables
 * /api/user/register => Create new user on database sending (email, password) with POST method
 * /api/auth => Get token sending (email, password) with POST method
+* /api/courses => Get all courses
 

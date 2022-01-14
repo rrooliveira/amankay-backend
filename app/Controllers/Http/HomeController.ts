@@ -3,7 +3,7 @@
 export default class HomeController {
   public async index() {
     return {
-      TESTE: 'TESATES',
+      company: 'Amankay',
     }
   }
 }

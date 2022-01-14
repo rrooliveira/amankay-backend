@@ -25,6 +25,7 @@ Route.get('/', 'HomeController.index')
 Route.group(() => {
   Route.group(() => {
     Route.post('/register/', 'UserController.create')
+    Route.post('/reset-password/', 'UserController.resetPassword')
   }).prefix('user')
 
   Route.group(() => {
